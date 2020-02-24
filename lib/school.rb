@@ -2,11 +2,9 @@ class School
   
   attr_accessor :name, :roster
   
-  ROSTER = []
-  
   def initialize(name)
     @name = name
-    @roster = []
+    @roster = roster
   end
   
   def add_student(student_name, grade)
