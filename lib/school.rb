@@ -13,7 +13,7 @@ class School
   end
   
   def grade
-    
+    roster[student_name]
   end
   
   def sort 
